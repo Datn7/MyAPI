@@ -14,5 +14,8 @@ namespace MyAPI.Data
         }
 
         public DbSet<MyAPI.Data.MyClass> MyClass { get; set; }
+
+        public DbSet<User> Users { get; set; }
+
     }
 }
